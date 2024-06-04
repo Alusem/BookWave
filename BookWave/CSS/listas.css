@@ -1,0 +1,101 @@
+header{
+    font-size: 20px;
+}
+
+.tabela-botao{
+    padding: 0px 25px;
+}
+
+
+h1 {
+    color: #007bff;
+    padding: 0px 20px;
+}
+
+h2 {
+    color: #666;
+    padding: 20px 20px;
+}
+
+        li a:hover:not(.active) {
+            background-color: #ddd;
+        }
+
+        li a.active {
+            color: white;
+            background-color: #007bff;
+        }
+
+a {
+ 
+    color: #000 !important;
+}
+
+a:hover {
+    color: #007bff !important;
+    text-decoration: none;
+}
+
+.Usuario {
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+
+    text-align: left;
+    padding: 8px;
+}
+
+.botoes-tabela {
+    width: 600px;
+    height: 50px;
+    text-align: center; 
+    display: inline;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+button {
+    padding: 5px 20px !important;
+    background-color: #007bff;
+    border: none !important;
+    color: white !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+    border-radius: .25rem !important;
+    transition: color .15s !important;
+}
+
+.container_acoes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+}
+
+.acao {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin-right: 80px !important;
+}
+
+.acao:last-child {
+    margin-right: inherit !important;
+}

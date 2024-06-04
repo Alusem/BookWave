@@ -1,0 +1,49 @@
+#contador,
+#contador2,
+#contador3,
+#contador4 {
+    width: 100%;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    padding: 20px 0;
+    font-weight: bold;
+    background-color: coral;
+}
+
+#contador2 {
+    background-color: aqua;
+}
+
+#contador3 {
+    background-color: mediumpurple;
+}
+
+#contador4 {
+    background-color: yellowgreen;
+}
+
+.box {
+    text-align: center;
+    padding: 20px;
+}
+
+.bloco {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container {
+    padding: 0;
+    width: 100%;
+    margin: 0 25px;
+    border: 1px solid #ccc;
+}
+
+.container .box {
+    min-height: 56px;
+    min-width: 56px;
+}

@@ -1,0 +1,48 @@
+.conteiner1 {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    padding-top: 20px !important;
+}
+
+.conteiner2 {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    padding-top: 20px !important;
+}
+
+#escolher_arquivo_frente{
+    position: relative;
+    left: -495px;
+    width: auto;
+}
+
+.btn1{
+    text-align: center;
+}
+
+#escolher_arquivo_verso{
+    position: relative;
+    top: -40px;
+    left: 475px;
+    width: auto;
+}
+
+.select-empresa{
+    margin-left: 20px;
+}
+
+#frente  {
+    color: #666 !important;
+    padding: 20px 20px !important;
+    text-align: center;
+}
+
+#verso{
+    color: #666 !important;
+    padding: 20px 20px !important;
+    text-align: center;
+}

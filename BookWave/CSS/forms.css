@@ -1,0 +1,144 @@
+h2 {
+    text-align: center;
+    position: relative;
+    padding: 0px 0px 20px 0px;
+}
+
+a {
+    color: #000 !important;
+}
+
+a:hover {
+    color: #007bff !important;
+    text-decoration: none;
+}
+
+.Usuario {
+    padding: 10px;
+}
+
+h2:before,
+h2:after {
+    content: "";
+    width: 35%;
+    height: 1px;
+    background: #555;
+    position: absolute;
+    top: 50%;
+}
+
+h2:before {
+    left: 0;
+}
+
+h2:after {
+    right: 0;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+button {
+    background-color: #008CBA !important;
+    border: none !important;
+    color: white !important;
+    padding: 10px 20px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+    border-radius: .25rem !important;
+    transition: color .15s !important
+    
+}
+
+.centro-cadastro {
+    text-align: left;
+    position: relative;
+    padding: 10px 300px 10px 300px;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn1{
+    text-align:right;
+}
+
+header {
+    font-size: 20px;
+}
+
+.form-control {
+    text-align: left;
+    position: relative;
+    padding: 0px 0px 20px 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+h1 {
+    color: #007bff;
+    padding:  0px 20px;
+}
+
+h2 {
+    color: #666;
+    padding: 15px 20px;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: #666;
+        text-align: center;
+        padding: 15px 40px;
+        text-decoration: none;
+    }
+
+        li a:hover:not(.active) {
+            background-color: #ddd;
+        }
+
+        li a.active {
+            color: white;
+            background-color: #007bff;
+        }
